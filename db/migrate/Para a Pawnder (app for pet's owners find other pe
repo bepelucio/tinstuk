@@ -1,0 +1,14 @@
+Para a Pawnder (app for pet's owners find other pets to procriate)
+
+1. Generate a model: user
+
+Wich need to to have:
+
+t.string :provider (if login does with facebook)
+t.string :uid (user id)
+t.string :name
+t.string :email 
+t.string :specie (dog, cat, turtles, fishes, hamsters) 
+t.string :breed (raça...life thousands..)
+t.string :gender (male or female)
+t.date   :dtae_of_birth
